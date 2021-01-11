@@ -1,0 +1,29 @@
+/*
+	For text styles
+*/
+
+.vr-text {
+    text-align: justify;
+	color: rgb(90, 90, 90);
+	padding: 20px;
+	margin: 0;
+	font-size: 16pt;
+}
+
+@media only screen and (max-width: 1400px) {
+.vr-text {
+	font-size: 15pt;
+}
+}
+
+@media only screen and (max-width: 900px) {
+.vr-text {
+	font-size: 13pt;
+}
+}
+
+@media only screen and (max-width: 550px) {
+.vr-text {
+	font-size: 11pt;
+}
+}

@@ -1,0 +1,83 @@
+.vr-row {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+/* XLG: Very large */
+.vr-row-xlg-0{display: none;}
+.vr-row-xlg-1{height: 10%;}
+.vr-row-xlg-2{height: 20%;}
+.vr-row-xlg-3{height: 30%;}
+.vr-row-xlg-4{height: 40%;}
+.vr-row-xlg-5{height: 50%;}
+.vr-row-xlg-6{height: 60%;}
+.vr-row-xlg-7{height: 70%;}
+.vr-row-xlg-8{height: 80%;}
+.vr-row-xlg-9{height: 90%;}
+.vr-row-xlg-10{height: 100%;}
+.vr-row-xlg-auto{height: auto;}
+
+/* LG: Large */
+@media only screen and (max-width: 1200px) {
+.vr-row-lg-0{display: none;}
+.vr-row-lg-1{height: 10%;}
+.vr-row-lg-2{height: 20%;}
+.vr-row-lg-3{height: 30%;}
+.vr-row-lg-4{height: 40%;}
+.vr-row-lg-5{height: 50%;}
+.vr-row-lg-6{height: 60%;}
+.vr-row-lg-7{height: 70%;}
+.vr-row-lg-8{height: 80%;}
+.vr-row-lg-9{height: 90%;}
+.vr-row-lg-10{height: 100%;}
+.vr-row-lg-auto{height: auto;}
+}
+
+/* MD: medium */
+@media only screen and (max-width: 992px) {
+.vr-row-md0{display: none;}
+.vr-row-md1{height: 10%;}
+.vr-row-md2{height: 20%;}
+.vr-row-md3{height: 30%;}
+.vr-row-md4{height: 40%;}
+.vr-row-md5{height: 50%;}
+.vr-row-md6{height: 60%;}
+.vr-row-md7{height: 70%;}
+.vr-row-md8{height: 80%;}
+.vr-row-md9{height: 90%;}
+.vr-row-md10{height: 100%;}
+.vr-row-mdauto{height: auto;}
+}
+
+/* SM: small */
+@media only screen and (max-width: 768px) {
+.vr-row-sm-0{display: none;}
+.vr-row-sm-1{height: 10%;}
+.vr-row-sm-2{height: 20%;}
+.vr-row-sm-3{height: 30%;}
+.vr-row-sm-4{height: 40%;}
+.vr-row-sm-5{height: 50%;}
+.vr-row-sm-6{height: 60%;}
+.vr-row-sm-7{height: 70%;}
+.vr-row-sm-8{height: 80%;}
+.vr-row-sm-9{height: 90%;}
+.vr-row-sm-10{height: 100%;}
+.vr-row-sm-auto{height: auto;}
+}
+
+/* XSM: very small */
+@media only screen and (max-width: 550px) {
+.vr-row-xsm-0{display: none;}
+.vr-row-xsm-1{height: 10%;}
+.vr-row-xsm-2{height: 20%;}
+.vr-row-xsm-3{height: 30%;}
+.vr-row-xsm-4{height: 40%;}
+.vr-row-xsm-5{height: 50%;}
+.vr-row-xsm-6{height: 60%;}
+.vr-row-xsm-7{height: 70%;}
+.vr-row-xsm-8{height: 80%;}
+.vr-row-xsm-9{height: 90%;}
+.vr-row-xsm-10{height: 100%;}
+.vr-row-xsm-auto{height: auto;}
+}

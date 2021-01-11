@@ -1,0 +1,83 @@
+.vr-col {
+	display: inline-block;
+	vertical-align: top;
+	height: 100%;
+}
+
+/* XLG: Very large */
+.vr-col-xlg-0{display: none;}
+.vr-col-xlg-1{width: 10%;}
+.vr-col-xlg-2{width: 20%;}
+.vr-col-xlg-3{width: 30%;}
+.vr-col-xlg-4{width: 40%;}
+.vr-col-xlg-5{width: 50%;}
+.vr-col-xlg-6{width: 60%;}
+.vr-col-xlg-7{width: 70%;}
+.vr-col-xlg-8{width: 80%;}
+.vr-col-xlg-9{width: 90%;}
+.vr-col-xlg-10{width: 100%;}
+.vr-col-xlg-auto{width: auto;}
+
+/* LG: Large */
+@media only screen and (max-width: 1200px) {
+.vr-col-lg-0{display: none;}
+.vr-col-lg-1{width: 10%;}
+.vr-col-lg-2{width: 20%;}
+.vr-col-lg-3{width: 30%;}
+.vr-col-lg-4{width: 40%;}
+.vr-col-lg-5{width: 50%;}
+.vr-col-lg-6{width: 60%;}
+.vr-col-lg-7{width: 70%;}
+.vr-col-lg-8{width: 80%;}
+.vr-col-lg-9{width: 90%;}
+.vr-col-lg-10{width: 100%;}
+.vr-col-lg-auto{width: auto;}
+}
+
+/* MD: medium */
+@media only screen and (max-width: 992px) {
+.vr-col-md0{display: none;}
+.vr-col-md1{width: 10%;}
+.vr-col-md2{width: 20%;}
+.vr-col-md3{width: 30%;}
+.vr-col-md4{width: 40%;}
+.vr-col-md5{width: 50%;}
+.vr-col-md6{width: 60%;}
+.vr-col-md7{width: 70%;}
+.vr-col-md8{width: 80%;}
+.vr-col-md9{width: 90%;}
+.vr-col-md10{width: 100%;}
+.vr-col-mdauto{width: auto;}
+}
+
+/* SM: small */
+@media only screen and (max-width: 768px) {
+.vr-col-sm-0{display: none;}
+.vr-col-sm-1{width: 10%;}
+.vr-col-sm-2{width: 20%;}
+.vr-col-sm-3{width: 30%;}
+.vr-col-sm-4{width: 40%;}
+.vr-col-sm-5{width: 50%;}
+.vr-col-sm-6{width: 60%;}
+.vr-col-sm-7{width: 70%;}
+.vr-col-sm-8{width: 80%;}
+.vr-col-sm-9{width: 90%;}
+.vr-col-sm-10{width: 100%;}
+.vr-col-sm-auto{width: auto;}
+}
+
+/* XSM: very small */
+@media only screen and (max-width: 550px) {
+.vr-col-xsm-0{display: none;}
+.vr-col-xsm-1{width: 10%;}
+.vr-col-xsm-2{width: 20%;}
+.vr-col-xsm-3{width: 30%;}
+.vr-col-xsm-4{width: 40%;}
+.vr-col-xsm-5{width: 50%;}
+.vr-col-xsm-6{width: 60%;}
+.vr-col-xsm-7{width: 70%;}
+.vr-col-xsm-8{width: 80%;}
+.vr-col-xsm-9{width: 90%;}
+.vr-col-xsm-10{width: 100%;}
+.vr-col-xsm-auto{width: auto;}
+}

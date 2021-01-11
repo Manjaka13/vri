@@ -1,0 +1,35 @@
+.vr-button {
+	display: inline-block;
+	padding: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: none;
+	font-size: 16pt;
+	transition: all 0.2s ease-in-out;
+}
+
+.vr-button:hover {
+	box-shadow: 0px 0px 4px black;
+}
+
+.vr-button:active {
+	box-shadow: 0px 0px 20px black;
+}
+
+@media only screen and (max-width: 1400px) {
+.vr-button {
+	font-size: 15pt;
+}
+}
+
+@media only screen and (max-width: 900px) {
+.vr-button {
+	font-size: 13pt;
+}
+}
+
+@media only screen and (max-width: 550px) {
+.vr-button {
+	font-size: 11pt;
+}
+}

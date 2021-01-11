@@ -1,0 +1,59 @@
+.vr-footer {
+	box-shadow: 0px 0px 1px black;
+}
+
+.vr-footer .left .vr-text {
+	text-align: right;
+}
+
+.vr-footer .center {
+	text-align: center;
+}
+
+.vr-footer .center .vr-text {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	padding-right: 5px;
+}
+
+.vr-footer .center img {
+	display: inline-block;
+	vertical-align: top;
+	height: 30px;
+	margin-top: 17px;
+}
+
+.vr-footer .right {
+	text-align: left;
+}
+
+@media only screen and (max-width: 900px) {
+.vr-footer .center img {
+	margin-top: 15px;
+}
+}
+
+@media only screen and (max-width: 550px) {
+.vr-footer .vr-text {
+	padding: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.vr-footer .left .vr-text {
+	text-align: center;
+}
+
+.vr-footer .center img {
+	margin-top: 4px;
+}
+
+.vr-footer .center {
+	text-align: center;
+}
+
+.vr-footer .right .vr-text {
+	text-align: center;
+}
+}

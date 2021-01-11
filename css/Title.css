@@ -1,0 +1,104 @@
+/*
+	Manages titles styles
+*/
+
+.vr-title {
+	color: rgb(59, 67, 81);
+	padding: 0;
+	margin: 0;
+    text-align: center;
+}
+
+.vr-title-xlg {
+    font-size: 50pt;
+}
+
+.vr-title-lg {
+    font-size: 45pt;
+}
+
+.vr-title-md {
+    font-size: 40pt;
+}
+
+.vr-title-sm {
+    font-size: 35pt;
+}
+
+.vr-title-xsm {
+    font-size: 30pt;
+}
+
+@media only screen and (max-width: 1400px) {
+.vr-title-xlg {
+    font-size: 40pt;
+}
+
+.vr-title-lg {
+    font-size: 35pt;
+}
+
+.vr-title-md {
+    font-size: 30pt;
+}
+
+.vr-title-sm {
+    font-size: 25pt;
+}
+
+.vr-title-xsm {
+    font-size: 20pt;
+}
+}
+
+@media only screen and (max-width: 900px) {
+.vr-title-xlg {
+    font-size: 30pt;
+}
+
+.vr-title-xlg {
+    font-size: 27pt;
+}
+
+.vr-title-lg {
+    font-size: 24pt;
+}
+
+.vr-title-md {
+    font-size: 22pt;
+}
+
+.vr-title-sm {
+    font-size: 18pt;
+}
+
+.vr-title-xsm {
+    font-size: 16pt;
+}
+}
+
+@media only screen and (max-width: 550px) {
+.vr-title-xlg {
+    font-size: 26pt;
+}
+
+.vr-title-xlg {
+    font-size: 24pt;
+}
+
+.vr-title-lg {
+    font-size: 22pt;
+}
+
+.vr-title-md {
+    font-size: 20pt;
+}
+
+.vr-title-sm {
+    font-size: 16pt;
+}
+
+.vr-title-xsm {
+    font-size: 15pt;
+}
+}

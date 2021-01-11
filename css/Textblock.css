@@ -1,0 +1,12 @@
+.vr-textblock {
+	height: auto;
+}
+
+.vr-textblock .vr-title {
+	padding: 20px;
+}
+
+.vr-textblock .vr-text {
+	padding: 0;
+	padding-bottom: 20px;
+}

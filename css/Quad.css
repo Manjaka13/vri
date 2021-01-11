@@ -1,0 +1,45 @@
+.vr-quad {
+	background: white;
+	text-align: center;
+	height: 500px;
+	overflow: hidden;
+	box-shadow: 0px 0px 1px black;
+}
+
+.vr-quad .item {
+	overflow: hidden;
+	width: 50%;
+	box-shadow: 0px 0px 1px black;
+}
+
+.vr-quad .left {
+	float: left;
+}
+
+.vr-quad .right {
+	float: right;
+}
+
+.vr-quad .little {
+	height: 220px;
+}
+
+.vr-quad .big {
+	height: 280px;
+}
+
+@media only screen and (max-width: 620px) {
+.vr-quad {
+	height: auto;
+}
+
+.vr-quad .item {
+	display: block;
+	width: 100%;
+}
+
+.vr-quad .big,
+.vr-quad .little {
+	height: 280px;
+}
+}
